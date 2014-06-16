@@ -169,7 +169,7 @@
                     <fadetime>400</fadetime>
                 </control>
                 <control type="image">
-                    <left>67</left>
+                    <left>55</left>
                     <top>31</top>
                     <width>530</width>
                     <height>795</height>
@@ -188,7 +188,7 @@
                 <control type="image">
                     <width>640</width>
                     <height>980</height>
-                    <aspectratio align="center" scalediffuse="false">scale</aspectratio>
+                    <aspectratio align="center" scalediffuse="false">stretch</aspectratio>
                     <texture>views/tripanel/poster_overlay.png</texture>
                 </control>
             </control>
