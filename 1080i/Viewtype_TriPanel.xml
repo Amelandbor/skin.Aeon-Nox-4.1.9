@@ -223,7 +223,7 @@
                     <fadetime>400</fadetime>
                 </control>
                 <control type="image">
-                    <left>62</left>
+                    <left>52</left>
                     <top>29</top>
                     <width>487</width>
                     <height>732</height>
@@ -242,15 +242,14 @@
                 <control type="image">
                     <width>590</width>
                     <height>903</height>
-                    <aspectratio align="center" scalediffuse="false">scale</aspectratio>
+                    <aspectratio align="center" scalediffuse="false">stretch</aspectratio>
                     <texture>views/tripanel/poster_overlay.png</texture>
                     <visible>!Stringcompare(Skin.String(TriPanelPosition),3)</visible>
                 </control>
                 <control type="image">
-					<left>22</left>
                     <width>590</width>
                     <height>903</height>
-                    <aspectratio align="center" scalediffuse="false">scale</aspectratio>
+                    <aspectratio align="center" scalediffuse="false">stretch</aspectratio>
                     <texture flipx="true">views/tripanel/poster_overlay.png</texture>
                     <visible>Stringcompare(Skin.String(TriPanelPosition),3)</visible>
                 </control>
