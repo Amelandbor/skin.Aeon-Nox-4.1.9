@@ -197,7 +197,7 @@
                             <width>300</width>
                             <height>300</height>
                             <aspectratio align="right">keep</aspectratio>
-                            <texture background="true">$VAR[cdArtVar]</texture>
+                            <texture background="true">$INFO[ListItem.Art(discart)]</texture>
                             <!--                         <animation effect="rotate" end="-360" center="auto" time="26000" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
  -->
                             <bordersize>7</bordersize>
@@ -358,7 +358,7 @@
                             <width>300</width>
                             <height>300</height>
                             <aspectratio align="right">keep</aspectratio>
-                            <texture background="true">$VAR[cdArtVar]</texture>
+                            <texture background="true">$INFO[ListItem.Art(discart)]</texture>
                             <animation effect="rotate" end="-360" center="auto" time="6400" delay="800" reversible="false" tween="cubic" easing="inout">Focus</animation>
                             <bordersize>7</bordersize>
                             <visible>Skin.HasSetting(infopanelcdart)</visible>
@@ -785,7 +785,7 @@
             <width>300</width>
             <height>300</height>
             <aspectratio align="right">keep</aspectratio>
-            <texture background="true">$VAR[cdArtVar]</texture>
+            <texture background="true">$INFO[ListItem.Art(discart)]</texture>
             <animation effect="rotate" end="-360" center="auto" time="6400" delay="800" reversible="false" tween="cubic" easing="inout">Focus</animation>
             <bordersize>7</bordersize>
             <visible>Skin.HasSetting(infopanelcdart)</visible>
@@ -964,7 +964,7 @@
             <width>300</width>
             <height>300</height>
             <aspectratio align="right">keep</aspectratio>
-            <texture background="true">$VAR[cdArtVar]</texture>
+            <texture background="true">$INFO[ListItem.Art(discart)]</texture>
             <bordersize>7</bordersize>
             <visible>Skin.HasSetting(infopanelcdart)</visible>
         </control>
