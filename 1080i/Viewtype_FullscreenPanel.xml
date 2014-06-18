@@ -884,7 +884,7 @@
                 <width>520</width>
                 <height>180</height>
                 <aligny>top</aligny>
-                <label>$VAR[GlobalPlotOutlineVar]</label>
+                <label>$VAR[GlobalPlotVar]</label>
                 <font>Font_Reg32</font>
                 <textcolor>white6</textcolor>
                 <autoscroll delay="5000" time="AutoScrollTime" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -895,7 +895,7 @@
                 <width>520</width>
                 <height>180</height>
                 <aligny>top</aligny>
-                <label>$VAR[GlobalPlotOutlineVar]</label>
+                <label>$VAR[GlobalPlotVar]</label>
                 <font>Font_Reg32</font>
                 <textcolor>white6</textcolor>
                 <autoscroll delay="5000" time="AutoScrollTime" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -1058,7 +1058,7 @@
                 <width>520</width>
                 <height>180</height>
                 <aligny>top</aligny>
-                <label>$VAR[GlobalPlotOutlineVar]</label>
+                <label>$VAR[GlobalPlotVar]</label>
                 <font>Font_Reg32</font>
                 <textcolor>white6</textcolor>
                 <autoscroll>false</autoscroll>
